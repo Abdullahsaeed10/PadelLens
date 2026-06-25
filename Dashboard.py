@@ -9,7 +9,7 @@ import streamlit as st
 
 from utils import (BLUE, RED, GRAY, get_theme, inject_theme_css, kpi,
                    load_my_matches, load_pro_matches, load_rankings,
-                   partner_win_rate, section_caption, shot_dna,
+                   partner_win_rate, render_table, section_caption, shot_dna,
                    sidebar_player_name, themed_fig)
 
 st.set_page_config(
@@ -70,20 +70,55 @@ with hero_col:
         unsafe_allow_html=True,
     )
 
-    # Mini sparkline under the hero
-    spark = mm.tail(15).reset_index().assign(idx=lambda d: range(len(d)))
+    # Form sparkline under the hero — a 5-match rolling win rate so the
+    # *trajectory* of recent form is readable, not just the headline number.
+    spark = mm.tail(15).reset_index(drop=True).assign(idx=lambda d: range(len(d)))
     spark["roll"] = spark["won"].rolling(5, min_periods=1).mean()
-    fig = go.Figure(go.Scatter(x=spark["idx"], y=spark["roll"],
-                               mode="lines", line=dict(color=BLUE, width=2.5),
-                               fill="tozeroy",
-                               fillcolor="rgba(14,165,233,0.1)"))
-    fig.update_layout(height=110, margin=dict(l=0, r=0, t=10, b=0),
-                      xaxis=dict(visible=False),
-                      yaxis=dict(visible=False, range=[0, 1]),
-                      showlegend=False)
+    spark["date_str"] = spark["date"].dt.strftime("%d %b")
+    spark["result"] = spark["won"].map({True: "Won", False: "Lost"})
+
+    # Title so the reader knows what the line measures.
+    st.markdown(
+        f"<div style='font-size:11px; color:{t['muted']}; letter-spacing:0.5px; "
+        f"margin:14px 0 2px;'>FORM TREND · 5-MATCH ROLLING WIN RATE · LAST 15</div>",
+        unsafe_allow_html=True,
+    )
+
+    fig = go.Figure(go.Scatter(
+        x=spark["idx"], y=spark["roll"],
+        mode="lines+markers", line=dict(color=BLUE, width=2.5),
+        marker=dict(size=5, color=BLUE),
+        fill="tozeroy", fillcolor="rgba(14,165,233,0.1)",
+        customdata=spark[["date_str", "result"]],
+        hovertemplate="%{customdata[0]} · %{customdata[1]}<br>"
+                      "Rolling win rate: %{y:.0%}<extra></extra>",
+    ))
+    # 50% break-even baseline: above = winning the majority of the recent
+    # window, below = losing it. Gives the line a reference to read against.
+    fig.add_hline(y=0.5, line=dict(color=t["zero"], width=1, dash="dot"),
+                  annotation_text="50% break-even",
+                  annotation_position="bottom left",
+                  annotation_font=dict(size=10, color=t["muted"]))
+    # Label the most recent value at the right end.
+    last = spark.iloc[-1]
+    fig.add_annotation(x=last["idx"], y=last["roll"], text=f"{last['roll']:.0%}",
+                       showarrow=False, yshift=13, xshift=-6,
+                       font=dict(size=11, color=BLUE))
+    fig.update_layout(
+        height=150, margin=dict(l=8, r=24, t=16, b=22),
+        xaxis=dict(title=dict(text="older  →  most recent",
+                              font=dict(size=10, color=t["muted"])),
+                   showticklabels=False, showgrid=False, zeroline=False),
+        yaxis=dict(range=[0, 1.08], tickvals=[0, 0.5, 1],
+                   ticktext=["0%", "50%", "100%"],
+                   tickfont=dict(size=10, color=t["muted"]), showgrid=False),
+        showlegend=False,
+    )
     st.plotly_chart(themed_fig(fig), use_container_width=True,
                     config={"displayModeBar": False})
-    section_caption("Editorial focus: the one number the user opens the app to see.")
+    section_caption("How to read it: each point is your win rate over the trailing "
+                    "5 matches. Hover any point for the date and result; above the "
+                    "dotted 50% line means you're winning most of your recent games.")
 
 with pro_col:
     # rk is already ordered by ranking; the top two share rank #1 (a pair).
@@ -192,7 +227,7 @@ with b1:
     )
     table = recent[["date_str", "partner", "opponents", "score", "result", "surface"]]
     table.columns = ["Date", "Partner", "Opponents", "Score", "Result", "Surface"]
-    st.dataframe(table, hide_index=True, use_container_width=True)
+    render_table(table)
 
 with b2:
     st.markdown("##### Just played?")

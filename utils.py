@@ -4,6 +4,7 @@ Kept deliberately small so the page files stay readable. Anything that's
 called from more than one page lives here.
 """
 import datetime
+import html
 import os
 import time
 from pathlib import Path
@@ -18,6 +19,10 @@ DATA_DIR = Path(__file__).parent / "data"
 # themes; only the *chrome* (backgrounds, text, gridlines) changes with mode.
 BLUE = "#0EA5E9"
 RED = "#EF4444"
+# Lighter siblings of BLUE/RED — used for the 'reference' series in the Compare
+# head-to-head so it reads as a benchmark next to the vivid 'you' bars.
+LBLUE = "#9AD9F5"
+LRED = "#F7B4B4"
 GREEN = "#22C55E"
 ORANGE = "#F97316"
 GRAY = "#94A3B8"
@@ -536,20 +541,185 @@ def inject_theme_css():
       }}
       [data-testid="stExpander"] details > summary svg {{ fill: {t['ink']}; }}
 
-      /* dataframe (glide-data-grid reads these CSS custom properties) */
-      [data-testid="stDataFrame"], [data-testid="stDataFrameResizable"] {{
-          --gdg-bg-cell: {t['card']};
-          --gdg-bg-cell-medium: {t['sidebar']};
-          --gdg-bg-header: {t['sidebar']};
-          --gdg-bg-header-hovered: {t['border']};
-          --gdg-bg-header-has-focus: {t['border']};
-          --gdg-text-dark: {t['ink']};
-          --gdg-text-medium: {t['muted']};
-          --gdg-text-light: {t['muted']};
-          --gdg-text-header: {t['muted']};
-          --gdg-border-color: {t['border']};
-          --gdg-horizontal-border-color: {t['border']};
+      /* buttons — Streamlit's secondary / download buttons stay light by default,
+         so repaint them from the theme to match dark mode. Primary buttons (e.g.
+         the "Save match" form submit) keep their blue accent, which reads well on
+         dark, so they're intentionally left untouched. */
+      [data-testid="stButton"] button,
+      [data-testid="stDownloadButton"] button {{
+          background-color: {t['card']};
+          color: {t['ink']};
+          border: 1px solid {t['border']};
       }}
+      [data-testid="stButton"] button p,
+      [data-testid="stDownloadButton"] button p {{ color: inherit; }}
+      [data-testid="stButton"] button:hover,
+      [data-testid="stButton"] button:focus,
+      [data-testid="stDownloadButton"] button:hover,
+      [data-testid="stDownloadButton"] button:focus {{
+          background-color: {t['card']};
+          color: {BLUE};
+          border-color: {BLUE};
+          box-shadow: none;
+      }}
+    </style>
+    """,
+        unsafe_allow_html=True,
+    )
+
+
+def render_table(df, height=None, header_tooltips=None):
+    """Render a DataFrame as a theme-aware HTML table.
+
+    st.dataframe paints its cells on a <canvas> using Streamlit's *native* theme
+    (config.toml, fixed to light), so the custom dark-mode toggle can't reach it.
+    This builds a plain HTML table from get_theme() instead, so every table follows
+    light/dark exactly like the rest of the page — one theme dict drives everything.
+
+    Trade-off vs st.dataframe: this table is static (no click-to-sort / search /
+    fullscreen). Row data is shown as passed in, so sort the DataFrame beforehand.
+
+    height : if set, the table scrolls inside a fixed-height box with a sticky
+             header (mirrors st.dataframe's height=...). If None, it fits content.
+    header_tooltips : optional {column_name: hover_text}, replacing the help text
+             that st.column_config used to show — rendered as a native title tooltip.
+    """
+    t = get_theme()
+    tips = header_tooltips or {}
+
+    head_cells = []
+    for c in df.columns:
+        label = html.escape(str(c))
+        if c in tips:
+            head_cells.append(f'<th title="{html.escape(str(tips[c]))}">{label}</th>')
+        else:
+            head_cells.append(f"<th>{label}</th>")
+    head = "".join(head_cells)
+
+    body_rows = []
+    for _, row in df.iterrows():
+        cells = "".join(
+            f"<td>{'' if pd.isna(v) else html.escape(str(v))}</td>" for v in row
+        )
+        body_rows.append(f"<tr>{cells}</tr>")
+    body = "".join(body_rows)
+
+    scroll = f"max-height:{height}px; overflow-y:auto; " if height else ""
+
+    st.markdown(
+        f"""
+    <div style="{scroll}border:1px solid {t['border']}; border-radius:8px;">
+      <table class="padel-table">
+        <thead><tr>{head}</tr></thead>
+        <tbody>{body}</tbody>
+      </table>
+    </div>
+    <style>
+      table.padel-table {{
+          width:100%; border-collapse:collapse;
+          font-size:14px; font-family:inherit;
+      }}
+      table.padel-table th {{
+          position:sticky; top:0; z-index:1;
+          background:{t['sidebar']}; color:{t['muted']};
+          text-align:left; font-weight:600; white-space:nowrap;
+          padding:10px 14px; border-bottom:1px solid {t['border']};
+      }}
+      table.padel-table td {{
+          background:{t['card']}; color:{t['ink']};
+          padding:9px 14px; border-bottom:1px solid {t['border']};
+      }}
+      table.padel-table tbody tr:last-child td {{ border-bottom:none; }}
+    </style>
+    """,
+        unsafe_allow_html=True,
+    )
+
+
+def _form_sparkline_svg(values, color, width=96, height=26):
+    """Tiny inline-SVG sparkline from a numeric series (one player's form line).
+
+    Auto-scales to the series' own min/max — standard sparkline behaviour, so the
+    trace uses the full height whatever the absolute numbers are. Falls back to a
+    muted dash when there isn't enough match history to draw a line.
+    """
+    pts = [v for v in values if v is not None]
+    if len(pts) < 2:
+        return f"<span style='color:{get_theme()['muted']};'>&ndash;</span>"
+
+    lo, hi = min(pts), max(pts)
+    span = (hi - lo) or 1                 # flat line → avoid divide-by-zero
+    pad = 3                               # keep the 2px stroke off the top/bottom
+    usable = height - 2 * pad
+    n = len(pts)
+    coords = " ".join(
+        f"{(i / (n - 1)) * width:.1f},"
+        f"{pad + (1 - (v - lo) / span) * usable:.1f}"   # SVG y grows downward
+        for i, v in enumerate(pts)
+    )
+    return (
+        f"<svg width='{width}' height='{height}' viewBox='0 0 {width} {height}' "
+        f"style='display:block;'>"
+        f"<polyline points='{coords}' fill='none' stroke='{color}' "
+        f"stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+    )
+
+
+def render_form_sparklines(players, pro_matches, n=10):
+    """Rankings card with a per-player form sparkline (the 'rankings + form' view).
+
+    Pairs each player's official points with a tiny SVG of their recent form: the
+    rolling win rate over their last `n` logged pro matches — the same 'form'
+    metric the personal Dashboard uses. The line turns red when recent form is
+    trending down (last point below the first), blue otherwise.
+
+    Built as a themed HTML table (like render_table) rather than st.dataframe, so
+    it follows the light/dark toggle and can host raw SVG in a cell. Rank (#) is
+    the row position, so sort `players` by points beforehand.
+    """
+    t = get_theme()
+    rows = []
+    for rank, (_, p) in enumerate(players.iterrows(), start=1):
+        form = pro_player_form(pro_matches, p["name"], n=n)   # 1 = win, 0 = loss
+        # Rolling win rate → a smooth 0..1 form line (same idea as the Dashboard).
+        series = pd.Series(form).rolling(3, min_periods=1).mean().tolist()
+        declining = len(series) >= 2 and series[-1] < series[0]
+        spark = _form_sparkline_svg(series, t["bad_fg"] if declining else BLUE)
+        rows.append(
+            f"<tr><td class='rank'>{rank}</td>"
+            f"<td>{html.escape(str(p['name']))}</td>"
+            f"<td class='pts'>{int(p['ranking_points']):,}</td>"
+            f"<td class='form'>{spark}</td></tr>"
+        )
+    body = "".join(rows)
+
+    st.markdown(
+        f"""
+    <div style="border:1px solid {t['border']}; border-radius:8px; overflow:hidden;">
+      <table class="padel-spark">
+        <thead><tr><th>#</th><th>Player</th><th>Points</th><th>Form</th></tr></thead>
+        <tbody>{body}</tbody>
+      </table>
+    </div>
+    <style>
+      table.padel-spark {{
+          width:100%; border-collapse:collapse;
+          font-size:14px; font-family:inherit;
+      }}
+      table.padel-spark th {{
+          background:{t['sidebar']}; color:{t['muted']};
+          text-align:left; font-weight:600; white-space:nowrap;
+          padding:10px 14px; border-bottom:1px solid {t['border']};
+      }}
+      table.padel-spark td {{
+          background:{t['card']}; color:{t['ink']};
+          padding:9px 14px; border-bottom:1px solid {t['border']};
+          vertical-align:middle;
+      }}
+      table.padel-spark td.rank {{ color:{BLUE}; font-weight:700; width:36px; }}
+      table.padel-spark td.pts  {{ font-weight:700; white-space:nowrap; }}
+      table.padel-spark td.form {{ width:120px; }}
+      table.padel-spark tbody tr:last-child td {{ border-bottom:none; }}
     </style>
     """,
         unsafe_allow_html=True,

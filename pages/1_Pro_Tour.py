@@ -4,8 +4,10 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
-from utils import (BLUE, GRAY, inject_theme_css, load_matches, load_rankings,
-                   section_caption, sidebar_player_name, themed_fig)
+from utils import (BLUE, GRAY, inject_theme_css, load_matches,
+                   load_pro_matches, load_pro_players, load_rankings,
+                   render_form_sparklines, render_table, section_caption,
+                   sidebar_player_name, themed_fig)
 
 st.set_page_config(page_title="Pro Tour · PadelLens",
                    page_icon="🏆", layout="wide")
@@ -81,17 +83,12 @@ with tab1:
         "Points": rk_f["points"].map(lambda p: f"{int(p):,}"),
         "Δ pts (wk)": rk_f["points_diff"].map(_delta),
     })
-    st.dataframe(
+    render_table(
         table_df,
-        column_config={
-            "Δ pts (wk)": st.column_config.TextColumn(
-                "Δ pts (wk)",
-                help="Ranking points gained or lost since last week's snapshot.",
-            ),
-        },
-        hide_index=True,
-        use_container_width=True,
         height=560,
+        header_tooltips={
+            "Δ pts (wk)": "Ranking points gained or lost since last week's snapshot.",
+        },
     )
 
     if rk_meta["live"]:
@@ -104,6 +101,20 @@ with tab1:
         section_caption(
             f"⚠ Offline: showing the {rk_meta['source']} ({rk_meta['as_of']}). "
             f"Add a valid token in <code>.streamlit/secrets.toml</code> to go live.")
+
+    # ---- Form sparklines: the "rankings + form" card, built for real.
+    # Pairs the marquee field with each player's recent form. Form comes from the
+    # logged pro-match dataset (the men's draw), so it's gated to the men's tour;
+    # the live table above still covers both tours.
+    if category == "men":
+        st.markdown("##### Top 12 · recent form")
+        top12 = load_pro_players().sort_values(
+            "ranking_points", ascending=False).head(12)
+        render_form_sparklines(top12, load_pro_matches())
+        section_caption(
+            "Form is the rolling win rate over each player's last 10 logged pro "
+            "matches — the same metric as your personal form trend. The line "
+            "turns <b>red</b> when recent form is trending down, blue otherwise.")
 
 with tab2:
     tour_label = "Men's" if category == "men" else "Women's"
@@ -119,8 +130,7 @@ with tab2:
                     "score", "winner", "duration_min"]]
         out.columns = ["Date", "Tournament", "Round", "Team 1", "Team 2",
                        "Score", "Winner", "Duration (min)"]
-        st.dataframe(out.head(80), hide_index=True, use_container_width=True,
-                     height=560)
+        render_table(out.head(80), height=560)
         src = ("Live from the Padel API" if mt_meta["live"]
                else f"⚠ Offline: {mt_meta['source']}")
         section_caption(

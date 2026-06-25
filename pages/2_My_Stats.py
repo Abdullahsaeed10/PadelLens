@@ -5,8 +5,9 @@ import plotly.graph_objects as go
 import streamlit as st
 
 from utils import (BLUE, RED, INK, MUTED, get_theme, inject_theme_css, kpi,
-                   load_my_matches, partner_win_rate, rolling_win_rate,
-                   section_caption, shot_dna, sidebar_player_name, themed_fig)
+                   load_my_matches, partner_win_rate, render_table,
+                   rolling_win_rate, section_caption, shot_dna,
+                   sidebar_player_name, themed_fig)
 
 st.set_page_config(page_title="My Stats · PadelLens",
                    page_icon="📊", layout="wide")
@@ -184,7 +185,7 @@ table["Score"] = table.apply(
 display = table[["Date", "partner", "opponents", "Score", "result", "surface", "club"]]
 display.columns = ["Date", "Partner", "Opponents", "Score", "Result",
                    "Surface", "Club"]
-st.dataframe(display, hide_index=True, use_container_width=True, height=300)
+render_table(display, height=300)
 
 # Export
 st.write("")
