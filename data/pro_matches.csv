@@ -1,0 +1,277 @@
+match_id,date,tournament,category,surface,country,round,team1_p1,team1_p2,team2_p1,team2_p2,winner_team,set1,set2,set3,duration_min
+1,2024-02-19,Riyadh P1,P1,outdoor,SAU,R32,Coki Nieto,Alex Ruiz,Lucas Campagnolo,Victor Ruiz,2,1-6,3-6,,111
+2,2024-02-19,Riyadh P1,P1,outdoor,SAU,R32,Juan Tello,Leo Augsburger,Javi Garrido,Lucas Bergamini,2,3-6,3-6,,101
+3,2024-02-19,Riyadh P1,P1,outdoor,SAU,R32,Denis Perino,Carlos Daniel Gutierrez,Pablo Lima,Ramiro Moyano,1,6-2,6-3,,102
+4,2024-02-19,Riyadh P1,P1,outdoor,SAU,R32,Jon Sanz,Pablo Cardona,Juan Lebron,Franco Stupaczuk,2,5-7,3-6,,106
+5,2024-02-19,Riyadh P1,P1,outdoor,SAU,R32,Tolito Aguirre,Edu Alonso,Martin Di Nenno,Paquito Navarro,1,6-4,7-5,,82
+6,2024-02-19,Riyadh P1,P1,outdoor,SAU,R32,Mike Yanguas,Momo Gonzalez,Sanyo Gutierrez,Maxi Sanchez,2,1-6,3-6,5-7,106
+7,2024-02-19,Riyadh P1,P1,outdoor,SAU,R32,Arturo Coello,Agustin Tapia,Ale Galan,Federico Chingotto,1,6-4,6-2,,92
+8,2024-02-19,Riyadh P1,P1,outdoor,SAU,R32,Miguel Yanguas,Pablo Bujosa,Coki Nieto,Alex Ruiz,1,6-3,6-3,6-3,106
+9,2024-02-20,Riyadh P1,P1,outdoor,SAU,R16,Denis Perino,Carlos Daniel Gutierrez,Tolito Aguirre,Edu Alonso,1,7-5,7-5,,121
+10,2024-02-20,Riyadh P1,P1,outdoor,SAU,R16,Ale Galan,Federico Chingotto,Juan Tello,Leo Augsburger,1,7-5,6-4,,91
+11,2024-02-20,Riyadh P1,P1,outdoor,SAU,R16,Juan Lebron,Franco Stupaczuk,Pablo Lima,Ramiro Moyano,1,6-4,6-1,7-6,121
+12,2024-02-20,Riyadh P1,P1,outdoor,SAU,R16,Javi Garrido,Lucas Bergamini,Lucas Campagnolo,Victor Ruiz,2,0-6,1-6,,112
+13,2024-02-20,Riyadh P1,P1,outdoor,SAU,R16,Arturo Coello,Agustin Tapia,Jon Sanz,Pablo Cardona,1,6-4,7-6,,59
+14,2024-02-20,Riyadh P1,P1,outdoor,SAU,R16,Martin Di Nenno,Paquito Navarro,Coki Nieto,Alex Ruiz,1,6-4,6-4,,113
+15,2024-02-20,Riyadh P1,P1,outdoor,SAU,R16,Sanyo Gutierrez,Maxi Sanchez,Miguel Yanguas,Pablo Bujosa,2,2-6,6-7,,122
+16,2024-02-20,Riyadh P1,P1,outdoor,SAU,R16,Mike Yanguas,Momo Gonzalez,Denis Perino,Carlos Daniel Gutierrez,1,7-5,6-4,6-3,78
+17,2024-02-21,Riyadh P1,P1,outdoor,SAU,QF,Martin Di Nenno,Paquito Navarro,Mike Yanguas,Momo Gonzalez,2,5-7,3-6,5-7,74
+18,2024-02-21,Riyadh P1,P1,outdoor,SAU,QF,Javi Garrido,Lucas Bergamini,Ale Galan,Federico Chingotto,1,6-3,6-4,,85
+19,2024-02-21,Riyadh P1,P1,outdoor,SAU,QF,Miguel Yanguas,Pablo Bujosa,Juan Lebron,Franco Stupaczuk,2,3-6,4-6,6-7,114
+20,2024-02-21,Riyadh P1,P1,outdoor,SAU,QF,Lucas Campagnolo,Victor Ruiz,Sanyo Gutierrez,Maxi Sanchez,1,6-3,6-2,6-4,86
+21,2024-02-22,Riyadh P1,P1,outdoor,SAU,SF,Mike Yanguas,Momo Gonzalez,Jon Sanz,Pablo Cardona,2,4-6,3-6,,110
+22,2024-02-22,Riyadh P1,P1,outdoor,SAU,SF,Tolito Aguirre,Edu Alonso,Coki Nieto,Alex Ruiz,1,6-3,6-3,,64
+23,2024-02-23,Riyadh P1,P1,outdoor,SAU,F,Juan Lebron,Franco Stupaczuk,Mike Yanguas,Momo Gonzalez,1,6-3,6-4,,59
+24,2024-03-04,Qatar Major,Major,outdoor,QAT,R32,Sanyo Gutierrez,Maxi Sanchez,Mike Yanguas,Momo Gonzalez,1,6-3,6-4,6-4,95
+25,2024-03-04,Qatar Major,Major,outdoor,QAT,R32,Jon Sanz,Pablo Cardona,Denis Perino,Carlos Daniel Gutierrez,1,6-4,6-2,,119
+26,2024-03-04,Qatar Major,Major,outdoor,QAT,R32,Arturo Coello,Agustin Tapia,Coki Nieto,Alex Ruiz,1,7-5,6-4,,81
+27,2024-03-04,Qatar Major,Major,outdoor,QAT,R32,Miguel Yanguas,Pablo Bujosa,Lucas Campagnolo,Victor Ruiz,1,6-1,6-4,,63
+28,2024-03-04,Qatar Major,Major,outdoor,QAT,R32,Tolito Aguirre,Edu Alonso,Juan Tello,Leo Augsburger,2,4-6,4-6,,84
+29,2024-03-04,Qatar Major,Major,outdoor,QAT,R32,Javi Garrido,Lucas Bergamini,Juan Lebron,Franco Stupaczuk,1,6-2,6-2,,67
+30,2024-03-04,Qatar Major,Major,outdoor,QAT,R32,Martin Di Nenno,Paquito Navarro,Pablo Lima,Ramiro Moyano,1,6-3,6-1,,74
+31,2024-03-04,Qatar Major,Major,outdoor,QAT,R32,Ale Galan,Federico Chingotto,Sanyo Gutierrez,Maxi Sanchez,1,7-5,7-5,6-1,96
+32,2024-03-05,Qatar Major,Major,outdoor,QAT,R16,Javi Garrido,Lucas Bergamini,Martin Di Nenno,Paquito Navarro,1,6-4,6-2,,90
+33,2024-03-05,Qatar Major,Major,outdoor,QAT,R16,Jon Sanz,Pablo Cardona,Denis Perino,Carlos Daniel Gutierrez,1,7-5,6-3,7-5,100
+34,2024-03-05,Qatar Major,Major,outdoor,QAT,R16,Lucas Campagnolo,Victor Ruiz,Juan Lebron,Franco Stupaczuk,2,4-6,3-6,4-6,72
+35,2024-03-05,Qatar Major,Major,outdoor,QAT,R16,Juan Tello,Leo Augsburger,Ale Galan,Federico Chingotto,1,7-5,7-5,,105
+36,2024-03-05,Qatar Major,Major,outdoor,QAT,R16,Mike Yanguas,Momo Gonzalez,Sanyo Gutierrez,Maxi Sanchez,2,1-6,2-6,,63
+37,2024-03-05,Qatar Major,Major,outdoor,QAT,R16,Arturo Coello,Agustin Tapia,Coki Nieto,Alex Ruiz,2,1-6,4-6,4-6,77
+38,2024-03-05,Qatar Major,Major,outdoor,QAT,R16,Miguel Yanguas,Pablo Bujosa,Pablo Lima,Ramiro Moyano,2,1-6,6-7,5-7,61
+39,2024-03-05,Qatar Major,Major,outdoor,QAT,R16,Tolito Aguirre,Edu Alonso,Javi Garrido,Lucas Bergamini,2,5-7,4-6,,89
+40,2024-03-06,Qatar Major,Major,outdoor,QAT,QF,Denis Perino,Carlos Daniel Gutierrez,Coki Nieto,Alex Ruiz,2,4-6,0-6,,93
+41,2024-03-06,Qatar Major,Major,outdoor,QAT,QF,Jon Sanz,Pablo Cardona,Lucas Campagnolo,Victor Ruiz,1,6-4,7-5,,91
+42,2024-03-06,Qatar Major,Major,outdoor,QAT,QF,Martin Di Nenno,Paquito Navarro,Tolito Aguirre,Edu Alonso,2,6-7,0-6,,102
+43,2024-03-06,Qatar Major,Major,outdoor,QAT,QF,Miguel Yanguas,Pablo Bujosa,Juan Tello,Leo Augsburger,1,6-4,7-6,6-4,63
+44,2024-03-07,Qatar Major,Major,outdoor,QAT,SF,Ale Galan,Federico Chingotto,Juan Tello,Leo Augsburger,2,2-6,4-6,2-6,82
+45,2024-03-07,Qatar Major,Major,outdoor,QAT,SF,Tolito Aguirre,Edu Alonso,Mike Yanguas,Momo Gonzalez,2,5-7,3-6,,96
+46,2024-03-08,Qatar Major,Major,outdoor,QAT,F,Pablo Lima,Ramiro Moyano,Miguel Yanguas,Pablo Bujosa,1,7-6,6-3,6-4,88
+47,2024-04-15,Brussels P2,P2,indoor,BEL,R32,Denis Perino,Carlos Daniel Gutierrez,Jon Sanz,Pablo Cardona,2,3-6,0-6,5-7,71
+48,2024-04-15,Brussels P2,P2,indoor,BEL,R32,Ale Galan,Federico Chingotto,Javi Garrido,Lucas Bergamini,1,6-4,6-3,7-5,75
+49,2024-04-15,Brussels P2,P2,indoor,BEL,R32,Coki Nieto,Alex Ruiz,Lucas Campagnolo,Victor Ruiz,2,4-6,6-7,5-7,122
+50,2024-04-15,Brussels P2,P2,indoor,BEL,R32,Juan Tello,Leo Augsburger,Sanyo Gutierrez,Maxi Sanchez,2,5-7,1-6,,118
+51,2024-04-15,Brussels P2,P2,indoor,BEL,R32,Tolito Aguirre,Edu Alonso,Arturo Coello,Agustin Tapia,2,4-6,4-6,,93
+52,2024-04-15,Brussels P2,P2,indoor,BEL,R32,Juan Lebron,Franco Stupaczuk,Pablo Lima,Ramiro Moyano,2,3-6,2-6,,68
+53,2024-04-15,Brussels P2,P2,indoor,BEL,R32,Martin Di Nenno,Paquito Navarro,Mike Yanguas,Momo Gonzalez,1,6-1,6-3,,100
+54,2024-04-15,Brussels P2,P2,indoor,BEL,R32,Miguel Yanguas,Pablo Bujosa,Denis Perino,Carlos Daniel Gutierrez,1,6-1,7-5,,60
+55,2024-04-16,Brussels P2,P2,indoor,BEL,R16,Juan Lebron,Franco Stupaczuk,Denis Perino,Carlos Daniel Gutierrez,2,4-6,3-6,,117
+56,2024-04-16,Brussels P2,P2,indoor,BEL,R16,Miguel Yanguas,Pablo Bujosa,Ale Galan,Federico Chingotto,1,7-6,6-4,6-3,112
+57,2024-04-16,Brussels P2,P2,indoor,BEL,R16,Coki Nieto,Alex Ruiz,Martin Di Nenno,Paquito Navarro,1,6-3,6-2,,99
+58,2024-04-16,Brussels P2,P2,indoor,BEL,R16,Sanyo Gutierrez,Maxi Sanchez,Mike Yanguas,Momo Gonzalez,1,7-5,6-3,,68
+59,2024-04-16,Brussels P2,P2,indoor,BEL,R16,Jon Sanz,Pablo Cardona,Arturo Coello,Agustin Tapia,1,6-3,7-6,,66
+60,2024-04-16,Brussels P2,P2,indoor,BEL,R16,Juan Tello,Leo Augsburger,Javi Garrido,Lucas Bergamini,2,3-6,5-7,0-6,88
+61,2024-04-16,Brussels P2,P2,indoor,BEL,R16,Tolito Aguirre,Edu Alonso,Pablo Lima,Ramiro Moyano,2,3-6,4-6,,79
+62,2024-04-16,Brussels P2,P2,indoor,BEL,R16,Lucas Campagnolo,Victor Ruiz,Juan Lebron,Franco Stupaczuk,2,6-7,3-6,,71
+63,2024-04-17,Brussels P2,P2,indoor,BEL,QF,Juan Tello,Leo Augsburger,Jon Sanz,Pablo Cardona,2,3-6,3-6,3-6,66
+64,2024-04-17,Brussels P2,P2,indoor,BEL,QF,Juan Lebron,Franco Stupaczuk,Coki Nieto,Alex Ruiz,1,6-3,7-5,,104
+65,2024-04-17,Brussels P2,P2,indoor,BEL,QF,Ale Galan,Federico Chingotto,Pablo Lima,Ramiro Moyano,1,7-5,6-4,,124
+66,2024-04-17,Brussels P2,P2,indoor,BEL,QF,Lucas Campagnolo,Victor Ruiz,Martin Di Nenno,Paquito Navarro,1,6-4,6-4,6-4,89
+67,2024-04-18,Brussels P2,P2,indoor,BEL,SF,Pablo Lima,Ramiro Moyano,Coki Nieto,Alex Ruiz,2,2-6,5-7,,93
+68,2024-04-18,Brussels P2,P2,indoor,BEL,SF,Tolito Aguirre,Edu Alonso,Denis Perino,Carlos Daniel Gutierrez,1,6-3,6-3,,88
+69,2024-04-19,Brussels P2,P2,indoor,BEL,F,Coki Nieto,Alex Ruiz,Javi Garrido,Lucas Bergamini,2,4-6,6-7,,103
+70,2024-05-13,Rome Major,Major,outdoor,ITA,R32,Lucas Campagnolo,Victor Ruiz,Javi Garrido,Lucas Bergamini,2,4-6,6-7,4-6,82
+71,2024-05-13,Rome Major,Major,outdoor,ITA,R32,Jon Sanz,Pablo Cardona,Coki Nieto,Alex Ruiz,1,6-2,6-4,,63
+72,2024-05-13,Rome Major,Major,outdoor,ITA,R32,Miguel Yanguas,Pablo Bujosa,Arturo Coello,Agustin Tapia,2,3-6,4-6,0-6,118
+73,2024-05-13,Rome Major,Major,outdoor,ITA,R32,Juan Lebron,Franco Stupaczuk,Tolito Aguirre,Edu Alonso,1,6-0,6-3,,66
+74,2024-05-13,Rome Major,Major,outdoor,ITA,R32,Ale Galan,Federico Chingotto,Martin Di Nenno,Paquito Navarro,2,0-6,4-6,,68
+75,2024-05-13,Rome Major,Major,outdoor,ITA,R32,Denis Perino,Carlos Daniel Gutierrez,Pablo Lima,Ramiro Moyano,1,6-3,6-3,6-4,114
+76,2024-05-13,Rome Major,Major,outdoor,ITA,R32,Mike Yanguas,Momo Gonzalez,Juan Tello,Leo Augsburger,1,6-4,6-4,,70
+77,2024-05-13,Rome Major,Major,outdoor,ITA,R32,Sanyo Gutierrez,Maxi Sanchez,Lucas Campagnolo,Victor Ruiz,2,1-6,0-6,1-6,78
+78,2024-05-14,Rome Major,Major,outdoor,ITA,R16,Lucas Campagnolo,Victor Ruiz,Coki Nieto,Alex Ruiz,2,3-6,4-6,1-6,76
+79,2024-05-14,Rome Major,Major,outdoor,ITA,R16,Miguel Yanguas,Pablo Bujosa,Martin Di Nenno,Paquito Navarro,1,6-2,6-4,,117
+80,2024-05-14,Rome Major,Major,outdoor,ITA,R16,Jon Sanz,Pablo Cardona,Juan Lebron,Franco Stupaczuk,1,6-4,6-4,,63
+81,2024-05-14,Rome Major,Major,outdoor,ITA,R16,Ale Galan,Federico Chingotto,Denis Perino,Carlos Daniel Gutierrez,2,4-6,1-6,6-7,60
+82,2024-05-14,Rome Major,Major,outdoor,ITA,R16,Mike Yanguas,Momo Gonzalez,Pablo Lima,Ramiro Moyano,2,4-6,3-6,4-6,81
+83,2024-05-14,Rome Major,Major,outdoor,ITA,R16,Tolito Aguirre,Edu Alonso,Sanyo Gutierrez,Maxi Sanchez,1,6-3,7-6,6-4,71
+84,2024-05-14,Rome Major,Major,outdoor,ITA,R16,Juan Tello,Leo Augsburger,Javi Garrido,Lucas Bergamini,2,3-6,3-6,5-7,116
+85,2024-05-14,Rome Major,Major,outdoor,ITA,R16,Arturo Coello,Agustin Tapia,Lucas Campagnolo,Victor Ruiz,1,6-0,7-6,,123
+86,2024-05-15,Rome Major,Major,outdoor,ITA,QF,Sanyo Gutierrez,Maxi Sanchez,Ale Galan,Federico Chingotto,1,6-4,6-2,6-3,88
+87,2024-05-15,Rome Major,Major,outdoor,ITA,QF,Jon Sanz,Pablo Cardona,Pablo Lima,Ramiro Moyano,1,6-0,6-3,6-0,73
+88,2024-05-15,Rome Major,Major,outdoor,ITA,QF,Tolito Aguirre,Edu Alonso,Juan Lebron,Franco Stupaczuk,1,6-2,6-4,,119
+89,2024-05-15,Rome Major,Major,outdoor,ITA,QF,Mike Yanguas,Momo Gonzalez,Martin Di Nenno,Paquito Navarro,1,6-4,6-1,7-5,75
+90,2024-05-16,Rome Major,Major,outdoor,ITA,SF,Tolito Aguirre,Edu Alonso,Denis Perino,Carlos Daniel Gutierrez,1,6-4,6-4,,99
+91,2024-05-16,Rome Major,Major,outdoor,ITA,SF,Juan Tello,Leo Augsburger,Martin Di Nenno,Paquito Navarro,1,7-6,6-3,6-3,118
+92,2024-05-17,Rome Major,Major,outdoor,ITA,F,Martin Di Nenno,Paquito Navarro,Denis Perino,Carlos Daniel Gutierrez,1,7-5,6-1,,77
+93,2024-06-17,Bordeaux P2,P2,outdoor,FRA,R32,Arturo Coello,Agustin Tapia,Miguel Yanguas,Pablo Bujosa,2,0-6,2-6,6-7,113
+94,2024-06-17,Bordeaux P2,P2,outdoor,FRA,R32,Lucas Campagnolo,Victor Ruiz,Martin Di Nenno,Paquito Navarro,1,6-3,6-2,7-5,65
+95,2024-06-17,Bordeaux P2,P2,outdoor,FRA,R32,Sanyo Gutierrez,Maxi Sanchez,Juan Lebron,Franco Stupaczuk,2,1-6,3-6,,81
+96,2024-06-17,Bordeaux P2,P2,outdoor,FRA,R32,Coki Nieto,Alex Ruiz,Denis Perino,Carlos Daniel Gutierrez,1,6-3,6-3,,76
+97,2024-06-17,Bordeaux P2,P2,outdoor,FRA,R32,Javi Garrido,Lucas Bergamini,Tolito Aguirre,Edu Alonso,2,4-6,0-6,,117
+98,2024-06-17,Bordeaux P2,P2,outdoor,FRA,R32,Jon Sanz,Pablo Cardona,Mike Yanguas,Momo Gonzalez,1,6-3,6-2,7-6,112
+99,2024-06-17,Bordeaux P2,P2,outdoor,FRA,R32,Pablo Lima,Ramiro Moyano,Juan Tello,Leo Augsburger,2,4-6,3-6,,71
+100,2024-06-17,Bordeaux P2,P2,outdoor,FRA,R32,Ale Galan,Federico Chingotto,Arturo Coello,Agustin Tapia,1,6-4,7-6,,108
+101,2024-06-18,Bordeaux P2,P2,outdoor,FRA,R16,Jon Sanz,Pablo Cardona,Martin Di Nenno,Paquito Navarro,1,6-3,6-3,,114
+102,2024-06-18,Bordeaux P2,P2,outdoor,FRA,R16,Sanyo Gutierrez,Maxi Sanchez,Juan Lebron,Franco Stupaczuk,1,6-1,6-2,,111
+103,2024-06-18,Bordeaux P2,P2,outdoor,FRA,R16,Coki Nieto,Alex Ruiz,Ale Galan,Federico Chingotto,1,6-4,7-5,,122
+104,2024-06-18,Bordeaux P2,P2,outdoor,FRA,R16,Javi Garrido,Lucas Bergamini,Denis Perino,Carlos Daniel Gutierrez,1,7-5,6-3,7-6,101
+105,2024-06-18,Bordeaux P2,P2,outdoor,FRA,R16,Juan Tello,Leo Augsburger,Pablo Lima,Ramiro Moyano,2,3-6,1-6,5-7,108
+106,2024-06-18,Bordeaux P2,P2,outdoor,FRA,R16,Lucas Campagnolo,Victor Ruiz,Miguel Yanguas,Pablo Bujosa,1,7-5,6-3,6-4,105
+107,2024-06-18,Bordeaux P2,P2,outdoor,FRA,R16,Tolito Aguirre,Edu Alonso,Arturo Coello,Agustin Tapia,2,4-6,5-7,,71
+108,2024-06-18,Bordeaux P2,P2,outdoor,FRA,R16,Mike Yanguas,Momo Gonzalez,Jon Sanz,Pablo Cardona,1,6-4,7-5,,66
+109,2024-06-19,Bordeaux P2,P2,outdoor,FRA,QF,Coki Nieto,Alex Ruiz,Denis Perino,Carlos Daniel Gutierrez,2,4-6,4-6,,77
+110,2024-06-19,Bordeaux P2,P2,outdoor,FRA,QF,Jon Sanz,Pablo Cardona,Martin Di Nenno,Paquito Navarro,1,6-4,6-4,6-2,114
+111,2024-06-19,Bordeaux P2,P2,outdoor,FRA,QF,Pablo Lima,Ramiro Moyano,Tolito Aguirre,Edu Alonso,1,7-5,6-2,6-4,93
+112,2024-06-19,Bordeaux P2,P2,outdoor,FRA,QF,Arturo Coello,Agustin Tapia,Juan Lebron,Franco Stupaczuk,2,3-6,1-6,,60
+113,2024-06-20,Bordeaux P2,P2,outdoor,FRA,SF,Miguel Yanguas,Pablo Bujosa,Coki Nieto,Alex Ruiz,1,6-3,6-1,7-6,80
+114,2024-06-20,Bordeaux P2,P2,outdoor,FRA,SF,Denis Perino,Carlos Daniel Gutierrez,Lucas Campagnolo,Victor Ruiz,2,5-7,2-6,,88
+115,2024-06-21,Bordeaux P2,P2,outdoor,FRA,F,Juan Tello,Leo Augsburger,Coki Nieto,Alex Ruiz,1,6-4,6-4,,124
+116,2024-07-22,Madrid Major,Major,outdoor,ESP,R32,Ale Galan,Federico Chingotto,Juan Lebron,Franco Stupaczuk,1,6-1,6-4,,99
+117,2024-07-22,Madrid Major,Major,outdoor,ESP,R32,Tolito Aguirre,Edu Alonso,Denis Perino,Carlos Daniel Gutierrez,1,6-4,6-4,,72
+118,2024-07-22,Madrid Major,Major,outdoor,ESP,R32,Martin Di Nenno,Paquito Navarro,Pablo Lima,Ramiro Moyano,1,6-3,6-1,6-3,70
+119,2024-07-22,Madrid Major,Major,outdoor,ESP,R32,Jon Sanz,Pablo Cardona,Coki Nieto,Alex Ruiz,2,2-6,1-6,,118
+120,2024-07-22,Madrid Major,Major,outdoor,ESP,R32,Javi Garrido,Lucas Bergamini,Lucas Campagnolo,Victor Ruiz,2,5-7,0-6,,105
+121,2024-07-22,Madrid Major,Major,outdoor,ESP,R32,Sanyo Gutierrez,Maxi Sanchez,Arturo Coello,Agustin Tapia,2,4-6,4-6,3-6,64
+122,2024-07-22,Madrid Major,Major,outdoor,ESP,R32,Miguel Yanguas,Pablo Bujosa,Juan Tello,Leo Augsburger,1,6-4,6-4,6-3,71
+123,2024-07-22,Madrid Major,Major,outdoor,ESP,R32,Mike Yanguas,Momo Gonzalez,Ale Galan,Federico Chingotto,2,3-6,3-6,,61
+124,2024-07-23,Madrid Major,Major,outdoor,ESP,R16,Jon Sanz,Pablo Cardona,Martin Di Nenno,Paquito Navarro,1,6-3,6-4,,111
+125,2024-07-23,Madrid Major,Major,outdoor,ESP,R16,Juan Tello,Leo Augsburger,Ale Galan,Federico Chingotto,2,2-6,3-6,,77
+126,2024-07-23,Madrid Major,Major,outdoor,ESP,R16,Lucas Campagnolo,Victor Ruiz,Javi Garrido,Lucas Bergamini,1,6-3,6-3,,114
+127,2024-07-23,Madrid Major,Major,outdoor,ESP,R16,Denis Perino,Carlos Daniel Gutierrez,Coki Nieto,Alex Ruiz,1,6-4,6-3,,120
+128,2024-07-23,Madrid Major,Major,outdoor,ESP,R16,Pablo Lima,Ramiro Moyano,Juan Lebron,Franco Stupaczuk,1,6-1,6-4,,84
+129,2024-07-23,Madrid Major,Major,outdoor,ESP,R16,Arturo Coello,Agustin Tapia,Mike Yanguas,Momo Gonzalez,1,6-1,6-4,,58
+130,2024-07-23,Madrid Major,Major,outdoor,ESP,R16,Sanyo Gutierrez,Maxi Sanchez,Miguel Yanguas,Pablo Bujosa,1,6-1,6-1,,103
+131,2024-07-23,Madrid Major,Major,outdoor,ESP,R16,Tolito Aguirre,Edu Alonso,Jon Sanz,Pablo Cardona,1,7-5,6-0,,67
+132,2024-07-24,Madrid Major,Major,outdoor,ESP,QF,Denis Perino,Carlos Daniel Gutierrez,Ale Galan,Federico Chingotto,1,7-5,6-0,6-4,68
+133,2024-07-24,Madrid Major,Major,outdoor,ESP,QF,Juan Tello,Leo Augsburger,Juan Lebron,Franco Stupaczuk,1,6-2,6-1,,72
+134,2024-07-24,Madrid Major,Major,outdoor,ESP,QF,Coki Nieto,Alex Ruiz,Martin Di Nenno,Paquito Navarro,1,6-2,6-1,,76
+135,2024-07-24,Madrid Major,Major,outdoor,ESP,QF,Arturo Coello,Agustin Tapia,Mike Yanguas,Momo Gonzalez,1,6-1,6-3,,121
+136,2024-07-25,Madrid Major,Major,outdoor,ESP,SF,Mike Yanguas,Momo Gonzalez,Juan Lebron,Franco Stupaczuk,1,6-4,6-4,6-3,94
+137,2024-07-25,Madrid Major,Major,outdoor,ESP,SF,Javi Garrido,Lucas Bergamini,Miguel Yanguas,Pablo Bujosa,2,5-7,5-7,,122
+138,2024-07-26,Madrid Major,Major,outdoor,ESP,F,Juan Lebron,Franco Stupaczuk,Pablo Lima,Ramiro Moyano,1,7-5,6-0,,80
+139,2024-09-09,Milan P1,P1,indoor,ITA,R32,Denis Perino,Carlos Daniel Gutierrez,Mike Yanguas,Momo Gonzalez,2,2-6,0-6,,107
+140,2024-09-09,Milan P1,P1,indoor,ITA,R32,Ale Galan,Federico Chingotto,Lucas Campagnolo,Victor Ruiz,2,3-6,4-6,,102
+141,2024-09-09,Milan P1,P1,indoor,ITA,R32,Jon Sanz,Pablo Cardona,Javi Garrido,Lucas Bergamini,1,6-4,6-0,,106
+142,2024-09-09,Milan P1,P1,indoor,ITA,R32,Miguel Yanguas,Pablo Bujosa,Juan Lebron,Franco Stupaczuk,2,1-6,3-6,,112
+143,2024-09-09,Milan P1,P1,indoor,ITA,R32,Tolito Aguirre,Edu Alonso,Coki Nieto,Alex Ruiz,1,6-2,6-1,,120
+144,2024-09-09,Milan P1,P1,indoor,ITA,R32,Pablo Lima,Ramiro Moyano,Juan Tello,Leo Augsburger,2,6-7,2-6,,70
+145,2024-09-09,Milan P1,P1,indoor,ITA,R32,Sanyo Gutierrez,Maxi Sanchez,Martin Di Nenno,Paquito Navarro,2,3-6,3-6,,77
+146,2024-09-09,Milan P1,P1,indoor,ITA,R32,Arturo Coello,Agustin Tapia,Denis Perino,Carlos Daniel Gutierrez,2,5-7,3-6,,63
+147,2024-09-10,Milan P1,P1,indoor,ITA,R16,Pablo Lima,Ramiro Moyano,Arturo Coello,Agustin Tapia,1,7-5,7-6,,94
+148,2024-09-10,Milan P1,P1,indoor,ITA,R16,Lucas Campagnolo,Victor Ruiz,Juan Lebron,Franco Stupaczuk,2,4-6,6-7,5-7,75
+149,2024-09-10,Milan P1,P1,indoor,ITA,R16,Denis Perino,Carlos Daniel Gutierrez,Coki Nieto,Alex Ruiz,2,3-6,5-7,3-6,124
+150,2024-09-10,Milan P1,P1,indoor,ITA,R16,Ale Galan,Federico Chingotto,Tolito Aguirre,Edu Alonso,1,6-1,6-4,6-3,86
+151,2024-09-10,Milan P1,P1,indoor,ITA,R16,Mike Yanguas,Momo Gonzalez,Juan Tello,Leo Augsburger,1,7-5,7-5,6-3,88
+152,2024-09-10,Milan P1,P1,indoor,ITA,R16,Martin Di Nenno,Paquito Navarro,Sanyo Gutierrez,Maxi Sanchez,2,1-6,0-6,,100
+153,2024-09-10,Milan P1,P1,indoor,ITA,R16,Miguel Yanguas,Pablo Bujosa,Jon Sanz,Pablo Cardona,2,2-6,5-7,3-6,118
+154,2024-09-10,Milan P1,P1,indoor,ITA,R16,Javi Garrido,Lucas Bergamini,Pablo Lima,Ramiro Moyano,2,0-6,1-6,,112
+155,2024-09-11,Milan P1,P1,indoor,ITA,QF,Tolito Aguirre,Edu Alonso,Juan Lebron,Franco Stupaczuk,1,6-3,6-3,6-4,103
+156,2024-09-11,Milan P1,P1,indoor,ITA,QF,Coki Nieto,Alex Ruiz,Javi Garrido,Lucas Bergamini,1,6-0,6-4,,122
+157,2024-09-11,Milan P1,P1,indoor,ITA,QF,Miguel Yanguas,Pablo Bujosa,Jon Sanz,Pablo Cardona,2,3-6,3-6,3-6,90
+158,2024-09-11,Milan P1,P1,indoor,ITA,QF,Juan Tello,Leo Augsburger,Sanyo Gutierrez,Maxi Sanchez,1,6-0,6-0,6-4,103
+159,2024-09-12,Milan P1,P1,indoor,ITA,SF,Denis Perino,Carlos Daniel Gutierrez,Lucas Campagnolo,Victor Ruiz,1,6-3,6-2,,118
+160,2024-09-12,Milan P1,P1,indoor,ITA,SF,Mike Yanguas,Momo Gonzalez,Martin Di Nenno,Paquito Navarro,2,3-6,0-6,,100
+161,2024-09-13,Milan P1,P1,indoor,ITA,F,Arturo Coello,Agustin Tapia,Coki Nieto,Alex Ruiz,1,6-3,6-1,6-4,99
+162,2024-10-07,Paris Major,Major,indoor,FRA,R32,Pablo Lima,Ramiro Moyano,Ale Galan,Federico Chingotto,1,7-6,7-5,,109
+163,2024-10-07,Paris Major,Major,indoor,FRA,R32,Jon Sanz,Pablo Cardona,Denis Perino,Carlos Daniel Gutierrez,1,7-5,6-3,,114
+164,2024-10-07,Paris Major,Major,indoor,FRA,R32,Arturo Coello,Agustin Tapia,Martin Di Nenno,Paquito Navarro,1,6-2,6-4,,77
+165,2024-10-07,Paris Major,Major,indoor,FRA,R32,Coki Nieto,Alex Ruiz,Sanyo Gutierrez,Maxi Sanchez,2,5-7,0-6,,104
+166,2024-10-07,Paris Major,Major,indoor,FRA,R32,Juan Lebron,Franco Stupaczuk,Javi Garrido,Lucas Bergamini,1,6-3,7-6,,81
+167,2024-10-07,Paris Major,Major,indoor,FRA,R32,Tolito Aguirre,Edu Alonso,Juan Tello,Leo Augsburger,2,4-6,2-6,,85
+168,2024-10-07,Paris Major,Major,indoor,FRA,R32,Lucas Campagnolo,Victor Ruiz,Mike Yanguas,Momo Gonzalez,1,6-3,6-1,7-5,114
+169,2024-10-07,Paris Major,Major,indoor,FRA,R32,Miguel Yanguas,Pablo Bujosa,Pablo Lima,Ramiro Moyano,2,5-7,6-7,6-7,66
+170,2024-10-08,Paris Major,Major,indoor,FRA,R16,Tolito Aguirre,Edu Alonso,Javi Garrido,Lucas Bergamini,2,4-6,5-7,,69
+171,2024-10-08,Paris Major,Major,indoor,FRA,R16,Juan Tello,Leo Augsburger,Sanyo Gutierrez,Maxi Sanchez,2,3-6,4-6,,67
+172,2024-10-08,Paris Major,Major,indoor,FRA,R16,Lucas Campagnolo,Victor Ruiz,Ale Galan,Federico Chingotto,1,6-0,6-4,,81
+173,2024-10-08,Paris Major,Major,indoor,FRA,R16,Arturo Coello,Agustin Tapia,Martin Di Nenno,Paquito Navarro,1,6-4,7-5,6-0,96
+174,2024-10-08,Paris Major,Major,indoor,FRA,R16,Jon Sanz,Pablo Cardona,Miguel Yanguas,Pablo Bujosa,2,1-6,4-6,,68
+175,2024-10-08,Paris Major,Major,indoor,FRA,R16,Juan Lebron,Franco Stupaczuk,Pablo Lima,Ramiro Moyano,2,4-6,2-6,,69
+176,2024-10-08,Paris Major,Major,indoor,FRA,R16,Mike Yanguas,Momo Gonzalez,Denis Perino,Carlos Daniel Gutierrez,2,4-6,4-6,,101
+177,2024-10-08,Paris Major,Major,indoor,FRA,R16,Coki Nieto,Alex Ruiz,Tolito Aguirre,Edu Alonso,2,3-6,4-6,1-6,111
+178,2024-10-09,Paris Major,Major,indoor,FRA,QF,Sanyo Gutierrez,Maxi Sanchez,Pablo Lima,Ramiro Moyano,1,6-3,6-3,,76
+179,2024-10-09,Paris Major,Major,indoor,FRA,QF,Jon Sanz,Pablo Cardona,Juan Lebron,Franco Stupaczuk,1,6-4,7-6,,105
+180,2024-10-09,Paris Major,Major,indoor,FRA,QF,Javi Garrido,Lucas Bergamini,Ale Galan,Federico Chingotto,1,6-1,6-4,,76
+181,2024-10-09,Paris Major,Major,indoor,FRA,QF,Martin Di Nenno,Paquito Navarro,Denis Perino,Carlos Daniel Gutierrez,1,6-3,7-5,,78
+182,2024-10-10,Paris Major,Major,indoor,FRA,SF,Javi Garrido,Lucas Bergamini,Arturo Coello,Agustin Tapia,1,6-3,7-6,,103
+183,2024-10-10,Paris Major,Major,indoor,FRA,SF,Ale Galan,Federico Chingotto,Coki Nieto,Alex Ruiz,2,4-6,5-7,,118
+184,2024-10-11,Paris Major,Major,indoor,FRA,F,Lucas Campagnolo,Victor Ruiz,Juan Tello,Leo Augsburger,1,6-4,6-3,,93
+185,2024-11-04,Mexico City P1,P1,outdoor,MEX,R32,Coki Nieto,Alex Ruiz,Martin Di Nenno,Paquito Navarro,2,0-6,1-6,,118
+186,2024-11-04,Mexico City P1,P1,outdoor,MEX,R32,Arturo Coello,Agustin Tapia,Jon Sanz,Pablo Cardona,1,6-4,6-4,,108
+187,2024-11-04,Mexico City P1,P1,outdoor,MEX,R32,Mike Yanguas,Momo Gonzalez,Juan Tello,Leo Augsburger,1,6-4,6-4,6-4,60
+188,2024-11-04,Mexico City P1,P1,outdoor,MEX,R32,Sanyo Gutierrez,Maxi Sanchez,Javi Garrido,Lucas Bergamini,2,4-6,3-6,,91
+189,2024-11-04,Mexico City P1,P1,outdoor,MEX,R32,Pablo Lima,Ramiro Moyano,Juan Lebron,Franco Stupaczuk,2,3-6,4-6,4-6,106
+190,2024-11-04,Mexico City P1,P1,outdoor,MEX,R32,Ale Galan,Federico Chingotto,Denis Perino,Carlos Daniel Gutierrez,1,6-3,6-3,,114
+191,2024-11-04,Mexico City P1,P1,outdoor,MEX,R32,Miguel Yanguas,Pablo Bujosa,Tolito Aguirre,Edu Alonso,2,1-6,4-6,,65
+192,2024-11-04,Mexico City P1,P1,outdoor,MEX,R32,Lucas Campagnolo,Victor Ruiz,Coki Nieto,Alex Ruiz,1,6-4,7-6,6-4,80
+193,2024-11-05,Mexico City P1,P1,outdoor,MEX,R16,Sanyo Gutierrez,Maxi Sanchez,Javi Garrido,Lucas Bergamini,1,6-4,6-2,6-4,106
+194,2024-11-05,Mexico City P1,P1,outdoor,MEX,R16,Arturo Coello,Agustin Tapia,Miguel Yanguas,Pablo Bujosa,1,6-2,7-6,7-5,94
+195,2024-11-05,Mexico City P1,P1,outdoor,MEX,R16,Tolito Aguirre,Edu Alonso,Juan Lebron,Franco Stupaczuk,1,6-3,6-4,6-4,92
+196,2024-11-05,Mexico City P1,P1,outdoor,MEX,R16,Ale Galan,Federico Chingotto,Martin Di Nenno,Paquito Navarro,1,6-3,6-4,,87
+197,2024-11-05,Mexico City P1,P1,outdoor,MEX,R16,Denis Perino,Carlos Daniel Gutierrez,Mike Yanguas,Momo Gonzalez,1,6-3,6-1,,78
+198,2024-11-05,Mexico City P1,P1,outdoor,MEX,R16,Pablo Lima,Ramiro Moyano,Lucas Campagnolo,Victor Ruiz,1,7-5,7-5,,83
+199,2024-11-05,Mexico City P1,P1,outdoor,MEX,R16,Jon Sanz,Pablo Cardona,Coki Nieto,Alex Ruiz,1,6-2,6-3,6-3,62
+200,2024-11-05,Mexico City P1,P1,outdoor,MEX,R16,Juan Tello,Leo Augsburger,Sanyo Gutierrez,Maxi Sanchez,2,1-6,5-7,3-6,81
+201,2024-11-06,Mexico City P1,P1,outdoor,MEX,QF,Javi Garrido,Lucas Bergamini,Coki Nieto,Alex Ruiz,2,5-7,3-6,,81
+202,2024-11-06,Mexico City P1,P1,outdoor,MEX,QF,Miguel Yanguas,Pablo Bujosa,Juan Tello,Leo Augsburger,1,6-2,6-3,,109
+203,2024-11-06,Mexico City P1,P1,outdoor,MEX,QF,Tolito Aguirre,Edu Alonso,Martin Di Nenno,Paquito Navarro,1,6-3,6-0,6-1,89
+204,2024-11-06,Mexico City P1,P1,outdoor,MEX,QF,Juan Lebron,Franco Stupaczuk,Jon Sanz,Pablo Cardona,1,6-3,6-4,,59
+205,2024-11-07,Mexico City P1,P1,outdoor,MEX,SF,Pablo Lima,Ramiro Moyano,Tolito Aguirre,Edu Alonso,1,7-5,6-1,,75
+206,2024-11-07,Mexico City P1,P1,outdoor,MEX,SF,Denis Perino,Carlos Daniel Gutierrez,Javi Garrido,Lucas Bergamini,2,4-6,4-6,,85
+207,2024-11-08,Mexico City P1,P1,outdoor,MEX,F,Denis Perino,Carlos Daniel Gutierrez,Lucas Campagnolo,Victor Ruiz,1,6-2,7-5,,84
+208,2024-12-02,Barcelona Finals,Finals,indoor,ESP,R32,Javi Garrido,Lucas Bergamini,Miguel Yanguas,Pablo Bujosa,1,6-4,6-4,,58
+209,2024-12-02,Barcelona Finals,Finals,indoor,ESP,R32,Juan Lebron,Franco Stupaczuk,Jon Sanz,Pablo Cardona,2,3-6,0-6,3-6,66
+210,2024-12-02,Barcelona Finals,Finals,indoor,ESP,R32,Martin Di Nenno,Paquito Navarro,Mike Yanguas,Momo Gonzalez,1,6-4,6-1,6-4,106
+211,2024-12-02,Barcelona Finals,Finals,indoor,ESP,R32,Denis Perino,Carlos Daniel Gutierrez,Lucas Campagnolo,Victor Ruiz,2,5-7,0-6,,75
+212,2024-12-02,Barcelona Finals,Finals,indoor,ESP,R32,Arturo Coello,Agustin Tapia,Pablo Lima,Ramiro Moyano,1,6-1,7-6,,74
+213,2024-12-02,Barcelona Finals,Finals,indoor,ESP,R32,Coki Nieto,Alex Ruiz,Ale Galan,Federico Chingotto,1,6-0,6-4,6-4,87
+214,2024-12-02,Barcelona Finals,Finals,indoor,ESP,R32,Juan Tello,Leo Augsburger,Tolito Aguirre,Edu Alonso,1,6-2,6-0,,111
+215,2024-12-02,Barcelona Finals,Finals,indoor,ESP,R32,Sanyo Gutierrez,Maxi Sanchez,Javi Garrido,Lucas Bergamini,1,7-5,7-5,,66
+216,2024-12-03,Barcelona Finals,Finals,indoor,ESP,R16,Jon Sanz,Pablo Cardona,Juan Lebron,Franco Stupaczuk,2,4-6,4-6,,99
+217,2024-12-03,Barcelona Finals,Finals,indoor,ESP,R16,Sanyo Gutierrez,Maxi Sanchez,Mike Yanguas,Momo Gonzalez,1,7-5,7-6,,110
+218,2024-12-03,Barcelona Finals,Finals,indoor,ESP,R16,Denis Perino,Carlos Daniel Gutierrez,Javi Garrido,Lucas Bergamini,2,4-6,5-7,,112
+219,2024-12-03,Barcelona Finals,Finals,indoor,ESP,R16,Coki Nieto,Alex Ruiz,Miguel Yanguas,Pablo Bujosa,2,2-6,5-7,,98
+220,2024-12-03,Barcelona Finals,Finals,indoor,ESP,R16,Martin Di Nenno,Paquito Navarro,Pablo Lima,Ramiro Moyano,1,6-2,6-4,,86
+221,2024-12-03,Barcelona Finals,Finals,indoor,ESP,R16,Lucas Campagnolo,Victor Ruiz,Juan Tello,Leo Augsburger,2,4-6,5-7,,111
+222,2024-12-03,Barcelona Finals,Finals,indoor,ESP,R16,Arturo Coello,Agustin Tapia,Tolito Aguirre,Edu Alonso,2,1-6,2-6,,115
+223,2024-12-03,Barcelona Finals,Finals,indoor,ESP,R16,Ale Galan,Federico Chingotto,Jon Sanz,Pablo Cardona,2,1-6,3-6,3-6,82
+224,2024-12-04,Barcelona Finals,Finals,indoor,ESP,QF,Javi Garrido,Lucas Bergamini,Mike Yanguas,Momo Gonzalez,1,6-3,7-5,6-3,88
+225,2024-12-04,Barcelona Finals,Finals,indoor,ESP,QF,Lucas Campagnolo,Victor Ruiz,Arturo Coello,Agustin Tapia,1,6-4,6-4,,104
+226,2024-12-04,Barcelona Finals,Finals,indoor,ESP,QF,Jon Sanz,Pablo Cardona,Juan Lebron,Franco Stupaczuk,2,3-6,5-7,,98
+227,2024-12-04,Barcelona Finals,Finals,indoor,ESP,QF,Ale Galan,Federico Chingotto,Juan Tello,Leo Augsburger,1,6-3,6-1,6-3,111
+228,2024-12-05,Barcelona Finals,Finals,indoor,ESP,SF,Arturo Coello,Agustin Tapia,Coki Nieto,Alex Ruiz,1,6-4,6-4,,65
+229,2024-12-05,Barcelona Finals,Finals,indoor,ESP,SF,Ale Galan,Federico Chingotto,Tolito Aguirre,Edu Alonso,2,5-7,0-6,,110
+230,2024-12-06,Barcelona Finals,Finals,indoor,ESP,F,Jon Sanz,Pablo Cardona,Pablo Lima,Ramiro Moyano,1,6-4,6-3,,93
+231,2025-01-20,Genova P2,P2,indoor,ITA,R32,Sanyo Gutierrez,Maxi Sanchez,Martin Di Nenno,Paquito Navarro,2,3-6,3-6,3-6,86
+232,2025-01-20,Genova P2,P2,indoor,ITA,R32,Tolito Aguirre,Edu Alonso,Jon Sanz,Pablo Cardona,1,7-5,6-0,,106
+233,2025-01-20,Genova P2,P2,indoor,ITA,R32,Juan Tello,Leo Augsburger,Lucas Campagnolo,Victor Ruiz,1,6-3,6-3,,113
+234,2025-01-20,Genova P2,P2,indoor,ITA,R32,Pablo Lima,Ramiro Moyano,Ale Galan,Federico Chingotto,2,0-6,5-7,,87
+235,2025-01-20,Genova P2,P2,indoor,ITA,R32,Juan Lebron,Franco Stupaczuk,Javi Garrido,Lucas Bergamini,1,7-5,7-5,,63
+236,2025-01-20,Genova P2,P2,indoor,ITA,R32,Miguel Yanguas,Pablo Bujosa,Denis Perino,Carlos Daniel Gutierrez,1,6-4,7-5,6-3,98
+237,2025-01-20,Genova P2,P2,indoor,ITA,R32,Arturo Coello,Agustin Tapia,Mike Yanguas,Momo Gonzalez,2,1-6,4-6,,96
+238,2025-01-20,Genova P2,P2,indoor,ITA,R32,Coki Nieto,Alex Ruiz,Sanyo Gutierrez,Maxi Sanchez,1,6-3,6-4,,75
+239,2025-01-21,Genova P2,P2,indoor,ITA,R16,Mike Yanguas,Momo Gonzalez,Tolito Aguirre,Edu Alonso,2,2-6,4-6,4-6,106
+240,2025-01-21,Genova P2,P2,indoor,ITA,R16,Javi Garrido,Lucas Bergamini,Juan Lebron,Franco Stupaczuk,1,6-4,6-4,,89
+241,2025-01-21,Genova P2,P2,indoor,ITA,R16,Miguel Yanguas,Pablo Bujosa,Juan Tello,Leo Augsburger,1,6-1,6-1,6-4,69
+242,2025-01-21,Genova P2,P2,indoor,ITA,R16,Martin Di Nenno,Paquito Navarro,Denis Perino,Carlos Daniel Gutierrez,1,6-2,6-3,,81
+243,2025-01-21,Genova P2,P2,indoor,ITA,R16,Arturo Coello,Agustin Tapia,Jon Sanz,Pablo Cardona,1,6-4,6-0,,69
+244,2025-01-21,Genova P2,P2,indoor,ITA,R16,Coki Nieto,Alex Ruiz,Ale Galan,Federico Chingotto,1,6-4,6-3,,68
+245,2025-01-21,Genova P2,P2,indoor,ITA,R16,Lucas Campagnolo,Victor Ruiz,Sanyo Gutierrez,Maxi Sanchez,1,6-3,6-3,6-3,96
+246,2025-01-21,Genova P2,P2,indoor,ITA,R16,Pablo Lima,Ramiro Moyano,Mike Yanguas,Momo Gonzalez,1,6-1,6-3,,67
+247,2025-01-22,Genova P2,P2,indoor,ITA,QF,Coki Nieto,Alex Ruiz,Lucas Campagnolo,Victor Ruiz,2,2-6,3-6,5-7,75
+248,2025-01-22,Genova P2,P2,indoor,ITA,QF,Denis Perino,Carlos Daniel Gutierrez,Javi Garrido,Lucas Bergamini,2,3-6,3-6,,98
+249,2025-01-22,Genova P2,P2,indoor,ITA,QF,Juan Lebron,Franco Stupaczuk,Ale Galan,Federico Chingotto,2,4-6,6-7,,99
+250,2025-01-22,Genova P2,P2,indoor,ITA,QF,Arturo Coello,Agustin Tapia,Tolito Aguirre,Edu Alonso,2,5-7,0-6,,83
+251,2025-01-23,Genova P2,P2,indoor,ITA,SF,Mike Yanguas,Momo Gonzalez,Ale Galan,Federico Chingotto,2,2-6,4-6,,67
+252,2025-01-23,Genova P2,P2,indoor,ITA,SF,Jon Sanz,Pablo Cardona,Javi Garrido,Lucas Bergamini,1,6-4,6-4,,104
+253,2025-01-24,Genova P2,P2,indoor,ITA,F,Juan Tello,Leo Augsburger,Arturo Coello,Agustin Tapia,1,6-4,7-6,,113
+254,2025-02-17,Riyadh P1 25,P1,outdoor,SAU,R32,Pablo Lima,Ramiro Moyano,Lucas Campagnolo,Victor Ruiz,1,6-0,6-0,,76
+255,2025-02-17,Riyadh P1 25,P1,outdoor,SAU,R32,Jon Sanz,Pablo Cardona,Sanyo Gutierrez,Maxi Sanchez,1,6-1,6-4,,114
+256,2025-02-17,Riyadh P1 25,P1,outdoor,SAU,R32,Javi Garrido,Lucas Bergamini,Juan Lebron,Franco Stupaczuk,2,3-6,0-6,2-6,79
+257,2025-02-17,Riyadh P1 25,P1,outdoor,SAU,R32,Juan Tello,Leo Augsburger,Miguel Yanguas,Pablo Bujosa,1,6-3,6-4,6-4,109
+258,2025-02-17,Riyadh P1 25,P1,outdoor,SAU,R32,Tolito Aguirre,Edu Alonso,Coki Nieto,Alex Ruiz,2,3-6,4-6,,115
+259,2025-02-17,Riyadh P1 25,P1,outdoor,SAU,R32,Martin Di Nenno,Paquito Navarro,Mike Yanguas,Momo Gonzalez,2,1-6,0-6,,81
+260,2025-02-17,Riyadh P1 25,P1,outdoor,SAU,R32,Denis Perino,Carlos Daniel Gutierrez,Arturo Coello,Agustin Tapia,1,6-0,6-3,,98
+261,2025-02-17,Riyadh P1 25,P1,outdoor,SAU,R32,Ale Galan,Federico Chingotto,Pablo Lima,Ramiro Moyano,2,3-6,3-6,,96
+262,2025-02-18,Riyadh P1 25,P1,outdoor,SAU,R16,Coki Nieto,Alex Ruiz,Mike Yanguas,Momo Gonzalez,1,6-1,6-4,,80
+263,2025-02-18,Riyadh P1 25,P1,outdoor,SAU,R16,Martin Di Nenno,Paquito Navarro,Javi Garrido,Lucas Bergamini,2,3-6,3-6,,103
+264,2025-02-18,Riyadh P1 25,P1,outdoor,SAU,R16,Arturo Coello,Agustin Tapia,Pablo Lima,Ramiro Moyano,1,6-3,7-5,7-6,121
+265,2025-02-18,Riyadh P1 25,P1,outdoor,SAU,R16,Juan Tello,Leo Augsburger,Sanyo Gutierrez,Maxi Sanchez,2,4-6,3-6,,86
+266,2025-02-18,Riyadh P1 25,P1,outdoor,SAU,R16,Jon Sanz,Pablo Cardona,Juan Lebron,Franco Stupaczuk,2,4-6,3-6,,121
+267,2025-02-18,Riyadh P1 25,P1,outdoor,SAU,R16,Miguel Yanguas,Pablo Bujosa,Ale Galan,Federico Chingotto,2,0-6,4-6,,104
+268,2025-02-18,Riyadh P1 25,P1,outdoor,SAU,R16,Lucas Campagnolo,Victor Ruiz,Tolito Aguirre,Edu Alonso,1,6-4,6-4,,89
+269,2025-02-18,Riyadh P1 25,P1,outdoor,SAU,R16,Denis Perino,Carlos Daniel Gutierrez,Coki Nieto,Alex Ruiz,2,6-7,2-6,,69
+270,2025-02-19,Riyadh P1 25,P1,outdoor,SAU,QF,Miguel Yanguas,Pablo Bujosa,Juan Lebron,Franco Stupaczuk,1,6-3,6-2,,92
+271,2025-02-19,Riyadh P1 25,P1,outdoor,SAU,QF,Arturo Coello,Agustin Tapia,Coki Nieto,Alex Ruiz,2,3-6,3-6,5-7,74
+272,2025-02-19,Riyadh P1 25,P1,outdoor,SAU,QF,Denis Perino,Carlos Daniel Gutierrez,Mike Yanguas,Momo Gonzalez,1,6-1,6-3,6-4,92
+273,2025-02-19,Riyadh P1 25,P1,outdoor,SAU,QF,Pablo Lima,Ramiro Moyano,Javi Garrido,Lucas Bergamini,1,6-0,6-3,,93
+274,2025-02-20,Riyadh P1 25,P1,outdoor,SAU,SF,Javi Garrido,Lucas Bergamini,Denis Perino,Carlos Daniel Gutierrez,2,1-6,4-6,,101
+275,2025-02-20,Riyadh P1 25,P1,outdoor,SAU,SF,Mike Yanguas,Momo Gonzalez,Coki Nieto,Alex Ruiz,1,6-3,6-3,,116
+276,2025-02-21,Riyadh P1 25,P1,outdoor,SAU,F,Mike Yanguas,Momo Gonzalez,Tolito Aguirre,Edu Alonso,1,6-2,6-3,,97

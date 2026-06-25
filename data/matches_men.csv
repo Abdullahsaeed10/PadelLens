@@ -1,0 +1,40 @@
+date,tournament,level,round,round_name,team1,team2,score,winner,duration_min,n_sets,status,category
+2026-06-24,-,-,16,Round of 32,Alex Chozas / Tino Libaak,Maxi Sanchez Blasco / Sanyo Gutierrez,6-4 · 7-6(6),Alex Chozas / Tino Libaak,224.0,2,finished,men
+2026-06-24,-,-,16,Round of 32,Pablo Garcia Rodrigo / Pablo Lijo,Alfonso Sanchez Arriaga / Samuel Rivas Garcia,6-3 · 6-1,Pablo Garcia Rodrigo / Pablo Lijo,56.0,2,finished,men
+2026-06-24,-,-,16,Round of 32,Inigo Jofre / Jairo Bautista,Jon Sanz / Jorge Nieto,7-5 · 2-1,Inigo Jofre / Jairo Bautista,54.0,2,retired,men
+2026-06-24,-,-,16,Round of 32,Lucas Campagnolo / Momo Gonzalez,Victor Ruiz / Mario Ortega,6-3 · 6-1,Lucas Campagnolo / Momo Gonzalez,168.0,2,finished,men
+2026-06-24,-,-,16,Round of 32,Pedro Perry / Juan Zamora Perez,Alex Ruiz / Juanlu Esbri,2-6 · 4-6,Alex Ruiz / Juanlu Esbri,66.0,2,finished,men
+2026-06-24,-,-,16,Round of 32,Marc Sintes Villalonga / Daniel Santigosa,Pol Hernandez / Guillermo Collado,6-4 · 5-7 · 0-6,Pol Hernandez / Guillermo Collado,233.0,3,finished,men
+2026-06-24,-,-,16,Round of 32,Alejandro Arroyo / Tolito Aguirre,Francisco Gil / Manuel Castaño,6-4 · 3-6 · 3-6,Francisco Gil / Manuel Castaño,119.0,3,finished,men
+2026-06-24,-,-,16,Round of 32,Aimar Goñi / Edu Alonso,Alonso Rodriguez Martinez / Juan Ignacio De Pascual,6(4)-7 · 4-6,Alonso Rodriguez Martinez / Juan Ignacio De Pascual,91.0,2,finished,men
+2026-06-24,-,-,16,Round of 32,Martin Di Nenno / Francisco Navarro,Jose Jimenez / Javier Garcia,7-5 · 6-4,Martin Di Nenno / Francisco Navarro,82.0,2,finished,men
+2026-06-24,-,-,16,Round of 32,Rodrigo Coello Manso / Adam Axelsson,David Gala / Enzo Jensen,7-5 · 7-6(4),Rodrigo Coello Manso / Adam Axelsson,96.0,2,finished,men
+2026-06-23,-,-,16,Round of 32,Javier Ruiz / Gonzalo Rubio,Francisco Guerrero / Javier Leal,7-6(4) · 2-6 · 3-6,Francisco Guerrero / Javier Leal,125.0,3,finished,men
+2026-06-23,-,-,16,Round of 32,Jose Antonio Diestro / Ignacio Piotto,Luis Hernandez / Javier Martinez,3-6 · 4-6,Luis Hernandez / Javier Martinez,63.0,2,finished,men
+2026-06-21,FIP Platinum Lusitania Portugal Master Padel,FIP Platinum,1,Finals,Sanyo Gutierrez / Maxi Sanchez Blasco,Maximiliano Arce / Juan Tello,4-6 · 2-6,Maximiliano Arce / Juan Tello,,2,finished,men
+2026-06-21,-,-,2,Semifinals,Benjamin Tison / Ferran Insa Sotillo,Maximo Jesus Maldonado / Franco Dal Bianco,3-6 · 0-6,Maximo Jesus Maldonado / Franco Dal Bianco,,2,finished,men
+2026-06-21,-,-,2,Semifinals,Martin Abud / Marcos Gonzalez Blanco,Mariano Agustin Gonzalez San Martin / Francisco Cabeza Teres,7-6 · 6-7 · 6-3,Martin Abud / Marcos Gonzalez Blanco,,3,finished,men
+2026-06-21,-,-,1,Finals,Maximo Jesus Maldonado / Franco Dal Bianco,Marcos Gonzalez Blanco / Martin Abud,4-6 · 4-6,Marcos Gonzalez Blanco / Martin Abud,,2,finished,men
+2026-06-20,FIP Platinum Lusitania Portugal Master Padel,FIP Platinum,2,Semifinals,Sanyo Gutierrez / Maxi Sanchez Blasco,Javier Garcia / Jose Jimenez,4-6 · 6-3 · 6-2,Sanyo Gutierrez / Maxi Sanchez Blasco,,3,finished,men
+2026-06-20,FIP Platinum Lusitania Portugal Master Padel,FIP Platinum,2,Semifinals,Juan Tello / Maximiliano Arce,Jairo Bautista / Inigo Jofre,4-6 · 6-4 · 6-3,Juan Tello / Maximiliano Arce,,3,finished,men
+2026-06-20,-,-,8,Round of 16,Maxi Sanchez / Juan Ignacio Rubini,Alfonso Diaz Ponce / Jaime Lobo Wordsworth,6-3 · 6-4,Maxi Sanchez / Juan Ignacio Rubini,,2,finished,men
+2026-06-20,-,-,8,Round of 16,Arthur Hugounenq / Yanis Muesser,Benjamin Tison / Ferran Insa Sotillo,5-7 · 6-7,Benjamin Tison / Ferran Insa Sotillo,,2,finished,men
+2026-06-20,-,-,8,Round of 16,Maximo Jesus Maldonado / Franco Dal Bianco,Lucas Pillon / Maxime Joris,6-3 · 6-4,Maximo Jesus Maldonado / Franco Dal Bianco,,2,finished,men
+2026-06-20,-,-,8,Round of 16,Theo Suzanna / Tristan Piombo,Boris Castro Garcia / Roberto Belmont Pastor,5-7 · 6-3 · 6-4,Theo Suzanna / Tristan Piombo,,3,finished,men
+2026-06-20,-,-,8,Round of 16,Marcos Gonzalez Blanco / Martin Abud,Sergi Guimet Bigas / Bart Van Opstal,6-2 · 7-6,Marcos Gonzalez Blanco / Martin Abud,,2,finished,men
+2026-06-20,-,-,8,Round of 16,Hugo Girona Diaz / Pedro Gonzalez Martin,Timeo Fonteny / Yoan Boronad,4-6 · 1-6,Timeo Fonteny / Yoan Boronad,,2,finished,men
+2026-06-20,-,-,8,Round of 16,Victor Tur Checa / Agustin Reca,Manuel Vives / Olivier Guy De Chamisso,6-7 · 6-4 · 3-6,Manuel Vives / Olivier Guy De Chamisso,,3,finished,men
+2026-06-20,-,-,8,Round of 16,Relis Ferreyra / Mario Rodriguez Marcos,Francisco Cabeza Teres / Mariano Agustin Gonzalez San Martin,3-6 · 2-6,Francisco Cabeza Teres / Mariano Agustin Gonzalez San Martin,,2,finished,men
+2026-06-20,-,-,4,Quarter,Juan Ignacio Rubini / Maxi Sanchez,Benjamin Tison / Ferran Insa Sotillo,4-6 · 2-6,Benjamin Tison / Ferran Insa Sotillo,,2,finished,men
+2026-06-20,-,-,4,Quarter,Franco Dal Bianco / Maximo Jesus Maldonado,Theo Suzanna / Tristan Piombo,6-0 · 6-0,Franco Dal Bianco / Maximo Jesus Maldonado,,2,finished,men
+2026-06-20,-,-,4,Quarter,Martin Abud / Marcos Gonzalez Blanco,Timeo Fonteny / Yoan Boronad,7-6 · 6-3,Martin Abud / Marcos Gonzalez Blanco,,2,finished,men
+2026-06-20,-,-,4,Quarter,Manuel Vives / Olivier Guy De Chamisso,Francisco Cabeza Teres / Mariano Agustin Gonzalez San Martin,2-6 · 4-6,Francisco Cabeza Teres / Mariano Agustin Gonzalez San Martin,,2,finished,men
+2026-06-19,FIP Platinum Lusitania Portugal Master Padel,FIP Platinum,4,Quarter,Maxi Sanchez Blasco / Sanyo Gutierrez,Alex Ruiz / Luis Hernandez,7-5 · 6-3,Maxi Sanchez Blasco / Sanyo Gutierrez,,2,finished,men
+2026-06-19,FIP Platinum Lusitania Portugal Master Padel,FIP Platinum,4,Quarter,Emilio Sanchez / Alberto Garcia Trabanco,Javier Garcia / Jose Jimenez,4-6 · 6(4)-7,Javier Garcia / Jose Jimenez,,2,finished,men
+2026-06-19,FIP Platinum Lusitania Portugal Master Padel,FIP Platinum,4,Quarter,Juan Tello / Maximiliano Arce,Alejandro Arroyo / Javier Martinez,6-4 · 6-3,Juan Tello / Maximiliano Arce,,2,finished,men
+2026-06-19,FIP Platinum Lusitania Portugal Master Padel,FIP Platinum,4,Quarter,Jairo Bautista / Inigo Jofre,Edu Alonso / Aimar Goñi,6(5)-7 · 7-6(3) · 7-6(3),Jairo Bautista / Inigo Jofre,,3,finished,men
+2026-06-19,-,-,16,Round of 32,Maxi Sanchez / Juan Ignacio Rubini,Alejandro Correa / Nicolas Peña Ruiz,7-6 · 6-2,Maxi Sanchez / Juan Ignacio Rubini,,2,finished,men
+2026-06-19,-,-,16,Round of 32,Johan Peloux Marchini / Pierre Perez Le Tiec,Alfonso Diaz Ponce / Jaime Lobo Wordsworth,3-6 · 7-5 · 3-6,Alfonso Diaz Ponce / Jaime Lobo Wordsworth,,3,finished,men
+2026-06-19,-,-,16,Round of 32,Arthur Hugounenq / Yanis Muesser,Alvaro Sola Sala / Rafael Marquet,6-4 · 6-2,Arthur Hugounenq / Yanis Muesser,,2,finished,men
+2026-06-19,-,-,16,Round of 32,Saul Duran Heras / Eric Romano,Benjamin Tison / Ferran Insa Sotillo,4-6 · 5-7,Benjamin Tison / Ferran Insa Sotillo,,2,finished,men
+2026-06-19,-,-,16,Round of 32,Maximo Jesus Maldonado / Franco Dal Bianco,Thomas Vanbauce / Philemon Raichman,3-6 · 6-1 · 6-4,Maximo Jesus Maldonado / Franco Dal Bianco,,3,finished,men

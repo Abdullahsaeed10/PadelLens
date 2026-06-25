@@ -1,0 +1,31 @@
+player_id,name,country,side,hand,height_cm,birth_year,ranking_points
+1,Arturo Coello,ESP,D,right,192,2002,11200
+2,Agustin Tapia,ARG,R,left,170,1999,11050
+3,Ale Galan,ESP,D,right,188,1996,9300
+4,Federico Chingotto,ARG,R,right,168,1991,9180
+5,Juan Lebron,ESP,R,right,187,1994,7600
+6,Franco Stupaczuk,ARG,D,right,184,1996,7480
+7,Martin Di Nenno,ARG,R,right,180,1997,6750
+8,Paquito Navarro,ESP,R,right,178,1989,6400
+9,Mike Yanguas,ESP,D,right,186,2001,6120
+10,Momo Gonzalez,ESP,D,right,191,1996,5980
+11,Jon Sanz,ESP,R,right,176,2002,5740
+12,Lucas Bergamini,BRA,R,right,175,1995,5300
+13,Pablo Cardona,ESP,D,right,182,1999,5150
+14,Javi Garrido,ESP,D,right,188,1992,4980
+15,Juan Tello,ARG,D,right,178,1993,4870
+16,Leo Augsburger,ARG,D,right,175,2001,4600
+17,Coki Nieto,ESP,D,right,184,1990,4280
+18,Alex Ruiz,ESP,R,right,183,1999,4150
+19,Tolito Aguirre,ARG,R,right,174,1992,3990
+20,Edu Alonso,ESP,R,right,177,1999,3780
+21,Miguel Yanguas,ESP,R,right,182,2003,3620
+22,Sanyo Gutierrez,ARG,D,right,173,1985,3500
+23,Maxi Sanchez,ARG,D,right,174,1985,3380
+24,Pablo Lima,BRA,R,right,188,1985,3200
+25,Ramiro Moyano,ARG,R,right,175,1987,3050
+26,Lucas Campagnolo,BRA,D,right,180,1995,2890
+27,Victor Ruiz,ESP,R,right,182,1998,2740
+28,Pablo Bujosa,ESP,D,right,184,1999,2610
+29,Denis Perino,ARG,R,right,179,1993,2470
+30,Carlos Daniel Gutierrez,ARG,D,right,173,1989,2340
